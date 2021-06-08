@@ -93,14 +93,26 @@ var vm = new Vue({
 ![image](https://user-images.githubusercontent.com/31032281/121213366-bc119400-c8b0-11eb-8f10-1dc8c7a9b938.png)
 <br/>
 
-### 9. UI
+### 9. UI Components
+- A Single Root Element <br/>
+**" Every component must have a single root element. "** <br/>
+元件中一定且只能有一個 root element，可以用 `<div>` 包著所有內容，而這個 `<div>` 就像是一個入口，Vue 會把裡面的東西拿出來渲染，處理好再插入到 DOM 中。<br/>
+https://vuejs.org/v2/guide/components.html#A-Single-Root-Element
 <br/>
 
 ### 10. Router
+- 頁面上透過 `<router-view>` 渲染元件
+- `mode: 'history'` 指的是 HTML5 的 History mode
+- `base` 定義 base url，所有的 `:to` 就不用寫 base url 
+- 可設定 Nested Route
 <br/>
 
 ### 11. CRUD 實作
 <br/>
 
 ### 12. API
+- 官方推薦 [Axios](https://axios-http.com/) 這個 API 套件
+- 在 component 中使用請記得 import `import axios from "axios";`
+- 這次使用 [JSON Server](https://github.com/typicode/json-server) 作為虛擬 server
+- Start JSON Server : `json-server --watch db.json`
 
