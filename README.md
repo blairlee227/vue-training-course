@@ -108,11 +108,14 @@ https://vuejs.org/v2/guide/components.html#A-Single-Root-Element
 <br/>
 
 ### 11. CRUD 實作
+請參考 [sample-code](https://github.com/blairlee227/vue-training-course/tree/master/sample-code)<br/>
+- [origin-files](https://github.com/blairlee227/vue-training-course/tree/master/sample-code/orign-files) 為原始還沒整理過的檔案 <br/>
+- [compelete-files](https://github.com/blairlee227/vue-training-course/tree/master/sample-code/complete-files) 為完成CRUD的範例檔案
 <br/>
 
 ### 12. API
 - 官方推薦 [Axios](https://axios-http.com/) 這個 API 套件
-- 在 component 中使用請記得 import `import axios from "axios";`
+- 在 component 中使用 Axios 請記得 import `import axios from "axios";`
 - 這次使用 [JSON Server](https://github.com/typicode/json-server) 作為虛擬 server
 - Start JSON Server : `json-server --watch db.json`
 
