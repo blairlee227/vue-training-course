@@ -1,6 +1,6 @@
 # Sample Code - Compelete Files
 
-完成 CRUD的 範例檔案
+完整 CRUD 的範例檔案
 
 ## Project setup
 ```
