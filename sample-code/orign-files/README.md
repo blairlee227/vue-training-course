@@ -1,8 +1,10 @@
-# vue-example
+# Sample Code - Compelete Files
+
+完成 CRUD的 範例檔案
 
 ## Project setup
 ```
-yarn install
+yarn
 ```
 
 ### Compiles and hot-reloads for development
@@ -10,15 +12,7 @@ yarn install
 yarn serve
 ```
 
-### Compiles and minifies for production
+### Start JSON Server 
 ```
-yarn build
+json-server --watch db.json
 ```
-
-### Lints and fixes files
-```
-yarn lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
