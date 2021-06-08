@@ -40,8 +40,8 @@
       </table>
       <p>共 2 筆</p>
     </div>
-    <!-- Model component -->
-    <Model :title="model.title" v-if="model.show">
+    <!-- Modal component -->
+    <Modal :title="modal.title" v-if="modal.show">
       <label>Name</label>
       <input />
       <label>Phone</label>
@@ -49,20 +49,20 @@
       <button class="default-btn float-right">
         Save
       </button>
-    </Model>
+    </Modal>
   </div>
 </template>
 <script>
 import Header from "@/components/Header.vue";
-import Model from "@/components/Model.vue";
+import Modal from "@/components/Modal.vue";
 
 export default {
   name: "Contact",
-  components: { Header, Model },
+  components: { Header, Modal },
   data() {
     return {
       pageTitle: "Contacts.",
-      model: {
+      modal: {
         title: "",
         show: false,
       },
