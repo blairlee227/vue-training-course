@@ -91,7 +91,7 @@ var vm = new Vue({
 
 ### 8. 通訊錄 Wireframe
 ![image](https://user-images.githubusercontent.com/31032281/121213366-bc119400-c8b0-11eb-8f10-1dc8c7a9b938.png)
-<br/>
+<br/><br/>
 
 ### 9. UI Components
 - A Single Root Element <br/>
@@ -110,7 +110,7 @@ https://vuejs.org/v2/guide/components.html#A-Single-Root-Element
 ### 11. CRUD 實作
 請參考 [sample-code](https://github.com/blairlee227/vue-training-course/tree/master/sample-code)<br/>
 - [origin-files](https://github.com/blairlee227/vue-training-course/tree/master/sample-code/orign-files) 為原始還沒整理過的檔案 <br/>
-- [compelete-files](https://github.com/blairlee227/vue-training-course/tree/master/sample-code/complete-files) 為完成CRUD的範例檔案
+- [compelete-files](https://github.com/blairlee227/vue-training-course/tree/master/sample-code/complete-files) 為完成 CRUD 的完整範例檔案
 <br/>
 
 ### 12. API
