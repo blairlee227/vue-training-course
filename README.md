@@ -94,17 +94,17 @@ var vm = new Vue({
 <br/><br/>
 
 ### 9. UI Components
-- A Single Root Element <br/>
+- [A Single Root Element](https://vuejs.org/v2/guide/components.html#A-Single-Root-Element) <br/>
 **" Every component must have a single root element. "** <br/>
 元件中一定且只能有一個 root element，可以用 `<div>` 包著所有內容，而這個 `<div>` 就像是一個入口，Vue 會把裡面的東西拿出來渲染，處理好再插入到 DOM 中。<br/>
-https://vuejs.org/v2/guide/components.html#A-Single-Root-Element
+
 <br/>
 
 ### 10. Router
 - 頁面上透過 `<router-view>` 渲染元件
 - `mode: 'history'` 指的是 HTML5 的 History mode
 - `base` 定義 base url，所有的 `:to` 就不用寫 base url 
-- 可設定 Nested Route
+- 可設定 Nested Route (可參考簡報範例)
 <br/>
 
 ### 11. CRUD 實作
