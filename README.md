@@ -115,7 +115,7 @@ https://vuejs.org/v2/guide/components.html#A-Single-Root-Element
 
 ### 12. API
 - 官方推薦 [Axios](https://axios-http.com/) 這個 API 套件
-- 在 component 中使用 Axios 請記得 import `import axios from "axios";`
+- 在 component 中使用 Axios 請記得 import : `import axios from "axios";`
 - 這次使用 [JSON Server](https://github.com/typicode/json-server) 作為虛擬 server
 - Start JSON Server : `json-server --watch db.json`
 
