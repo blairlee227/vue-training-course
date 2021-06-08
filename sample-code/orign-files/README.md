@@ -1,6 +1,9 @@
-# Sample Code - Compelete Files
+# Sample Code - Origin Files
 
-完整 CRUD 的範例檔案
+原始檔案，請嘗試完成以下內容：
+- 設定 `Contact.vue` 頁面 Router
+- 將 `Contact.vue` 中的列表切成獨立的 Component
+- 完成 CRUD
 
 ## Project setup
 ```
