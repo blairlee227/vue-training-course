@@ -6,6 +6,8 @@
 <script>
 export default {
   name: "Header",
+  // Receive data from parent component with Props
+  // https://vuejs.org/v2/guide/components.html#Passing-Data-to-Child-Components-with-Props
   props: {
     pageTitle: {
       type: String,

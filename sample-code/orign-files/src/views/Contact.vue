@@ -41,6 +41,8 @@
       <p>共 2 筆</p>
     </div>
     <!-- Modal component -->
+    <!-- Use the `v-if` directive to conditionally render a block. -->
+    <!-- https://vuejs.org/v2/guide/conditional.html -->
     <Modal :title="modal.title" v-if="modal.show">
       <label>Name</label>
       <input />
@@ -53,11 +55,14 @@
   </div>
 </template>
 <script>
+// Import components
 import Header from "@/components/Header.vue";
 import Modal from "@/components/Modal.vue";
 
 export default {
   name: "Contact",
+  // Defined components
+  // https://vuejs.org/v2/guide/components.html
   components: { Header, Modal },
   data() {
     return {
