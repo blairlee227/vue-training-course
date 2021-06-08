@@ -1,3 +1,5 @@
+
+![image](https://user-images.githubusercontent.com/31032281/121222590-41994200-c8b9-11eb-92a4-aebaa7688d9e.png)
 # Vue.js 2 Training Course
 
 此次教育訓練內容包含：
