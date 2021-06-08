@@ -36,7 +36,7 @@ Vue CLI 全名是 Vue.js Command-Line Interface，由 Vue 團隊所開發，提�
 
 - 安裝前要先裝 Node.js
 - 在 Node 環境下，請記得下 `yarn` / `npm install` 初始化專案
-- Vue3 出來之後，Vue CLI 有更新過，安裝過程可參考簡報
+- Vue3 出來之後，Vue CLI 有更新過，安裝過程可參考[簡報](https://github.com/blairlee227/vue-training-course/blob/master/vue_traning.pdf)
 <br/>
 
 ### 4. 資料夾結構
@@ -104,7 +104,7 @@ var vm = new Vue({
 - 頁面上透過 `<router-view>` 渲染元件
 - `mode: 'history'` 指的是 HTML5 的 History mode
 - `base` 定義 base url，所有的 `:to` 就不用寫 base url 
-- 可設定 Nested Route (可參考簡報範例)
+- 可設定 Nested Route (可參考[簡報](https://github.com/blairlee227/vue-training-course/blob/master/vue_traning.pdf)範例)
 <br/>
 
 ### 11. CRUD 實作
