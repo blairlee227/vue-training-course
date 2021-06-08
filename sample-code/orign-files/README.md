@@ -1,8 +1,13 @@
-# vue-example
+# Sample Code - Origin Files
+
+原始檔案，請嘗試完成以下內容：
+- 設定 `Contact.vue` 頁面 Router
+- 將 `Contact.vue` 中的列表切成獨立的 Component
+- 完成 CRUD
 
 ## Project setup
 ```
-yarn install
+yarn
 ```
 
 ### Compiles and hot-reloads for development
@@ -10,15 +15,7 @@ yarn install
 yarn serve
 ```
 
-### Compiles and minifies for production
+### Start JSON Server 
 ```
-yarn build
+json-server --watch db.json
 ```
-
-### Lints and fixes files
-```
-yarn lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
