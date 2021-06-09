@@ -7,7 +7,7 @@
 - Vue CLI
 - Vue Router
 - 使用 Vue2 製作一個簡單的通訊錄 (使用 [JSON Server](https://github.com/typicode/json-server) 作為虛擬 Server)
-<br/>
+
 
 ### Table of contents
 - [1. What is Vue.js?](#1-what-is-vuejs)
