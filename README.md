@@ -29,7 +29,7 @@
 https://vuejs.org
 <br/>
 - Vue.js 是一套漸進式的 JavaScript 框架 (The Progressive JavaScript Framework)。
-- Vue.js 是以操作資料狀態來管理畫面的 MVVN 架構，讓大家專注在資料的操作，不需要花心思管理畫面 DOM。
+- Vue.js 是以操作資料狀態來管理畫面的 MVVM 架構，讓大家專注在資料的操作，不需要花心思管理畫面 DOM。
 - 目前比較主流的框架還有像是 React 或 Angular，Vue 特別的是把重點放在狀態還有畫面上，在寫 Vue 的時候，感覺就像在寫一般的 html，對於初學者來說很容易上手。
 
 > MVVN : Model - View - ViewModel
